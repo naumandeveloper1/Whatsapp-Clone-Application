@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box !important;
+}
+/* whatsapp */
+/* header */
+/* main */
+/* left */
+/* right */
+
+/* whatsapp */
+.whatsapp * {
+  padding: 0 !important;
+}
+/* header */
+.header {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.header img {
+  position: absolute;
+  width: 120px;
+  height: 80px;
+  left: 80px;
+  border: 2px solid black;
+}
+.left {
+  height: 87vh;
+}
+
+.div::after {
+  content: " ";
+  height: 0;
+  position: absolute;
+  right: 0px;
+  width: 0;
+  right: 7px;
+  border: medium solid #fff;
+  border-width: 15px 0 15px 15px;
+  border-color: #0000 #0000 #0000 green;
+}
+/* timeleft:before {
+} */
